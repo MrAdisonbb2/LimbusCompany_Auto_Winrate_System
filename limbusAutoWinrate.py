@@ -14,6 +14,7 @@ while not keyboard.is_pressed("ctrl+d"):
     pyautogui.press("p")
     pyautogui.press("enter")
     print(f"round : {count}")
+    count+=1
     pyautogui.hotkey("alt", "tab")
     
     time.sleep(60)
